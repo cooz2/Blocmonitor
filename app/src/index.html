@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloctoad Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+  
+  
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1 id="title">Bloctoad Explorer</h1>
+
+    <h2 id="instruct">Tell a story to the toad</h2>
+    <div class="formcontainer">
+    <input id ="writebox" type="text" placeholder="..." maxlength="140"/>
+    </div>
+
+    <div class="buttoncontainer">
+    <button class="rocket" onclick="App.setValue()">🚀</button>
+    </div>
+
+    <p>Last 🐸<strong class="storeValue">loading...</strong> </p>
+
+    <h1>Last 🐸</h1>
+     
+    </table>
+
+    <ol class='tx'>
+    </ol>
+
+    <p id="status"></p>
+    <p>
+      <strong>Help :</strong> Be sure to use an available Web3 injector before submiting a toad !
+    </p>
+    <script src="index.js"></script>
+  </body>
+</html>

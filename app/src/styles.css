@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  font-family: "Cocogoose";
+  font-size: 26px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 36px;
+  background: #303952;
+}
+
+#instruct {
+  font-family: "Montserrat";
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.formcontainer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 65px;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.rocket {
+  width: 90px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #303952;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.rocket:hover {
+  opacity: 0.7;
+}
+
+#writebox {
+  box-sizing: border-box;
+  margin: 0;
+  width: 40%;
+  height: 100%;
+}
+
+th {
+  font-family: "Consolas";
+  color: #303952;
+}
+
+#status {
+  font-family: "Consolas";
+}
